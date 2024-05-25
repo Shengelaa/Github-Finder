@@ -4,6 +4,7 @@ btn.addEventListener("click", function () {
     const username = input.value;
     const url = `https://api.github.com/users/${username}`;
     const mydiv = document.querySelector("#div");
+    mydiv.innerHTML = "";
 
     try {
       const response = await fetch(url);
