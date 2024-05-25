@@ -30,3 +30,9 @@ img {
 p {
   margin-bottom: -13px;
 }
+
+video {
+  width: 500px;
+  height: 500px;
+  margin: -30px 0px -600px 640px;
+}

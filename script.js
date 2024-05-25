@@ -38,7 +38,7 @@ btn.addEventListener("click", function () {
       mydiv.appendChild(urlz);
 
       const htmlurl = document.createElement("p");
-      login.textContent = "Html Url: " + data.htmlurl;
+      login.textContent = "Html Url: " + data.html_url;
       mydiv.appendChild(htmlurl);
 
       const followers = document.createElement("p");
