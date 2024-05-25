@@ -1,0 +1,32 @@
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+.yes {
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  justify-content: space-between;
+  margin: -10px 0px -55px 0px;
+}
+
+.re {
+  margin-top: -5px;
+}
+
+#timer {
+  border: 1.5px darkred solid;
+  width: 300px;
+  padding: 0px 0px 0px 50px;
+  font-weight: 800;
+  color: darkred;
+}
+
+p {
+  margin-bottom: -13px;
+}
